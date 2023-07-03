@@ -1,0 +1,54 @@
+header {
+  width: 100%;
+  position: absolute;
+  .container {
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      .navigation {
+        display: flex;
+        gap: 44px;
+        .logo {
+          margin-top: 48px;
+        }
+        .logo a {
+          font-weight: 700;
+          font-size: 24px;
+          color: black;
+        }
+        .nav-bar {
+          display: flex;
+          gap: 44px;
+          margin-top: 51px;
+          a {
+            font-weight: 500;
+            font-size: 16px;
+            color: black;
+          }
+        }
+        form {
+          margin-top: 40px;
+          padding: 12px 261px 12px 44px;
+          background-color: white;
+          .search {
+            border: 0;
+            outline: 0;
+          }
+        }
+      }
+    }
+    .user-area {
+      display: flex;
+      gap: 34px;
+      .heart {
+        margin-top: 54px;
+      }
+      .cart {
+        margin-top: 55px;
+      }
+      .ico {
+        margin-top: 43px;
+      }
+    }
+  }
+}

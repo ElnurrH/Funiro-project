@@ -1,0 +1,82 @@
+.rooms {
+  .container {
+    .row {
+        margin-top: 100px;
+      display: flex;
+      gap: 24px;
+
+      .details {
+       p{
+        margin-top: 8px;
+       }
+        button{
+            margin-top: 36px;
+            padding: 12px 40px;
+            background: #E89F71;
+            color: white;
+            border: 0;
+            cursor: pointer;
+            transition: 0.5s ease;
+            &:hover {
+                background-color: white;
+                border: 1px solid #E89F71;
+                color: #E89F71;
+            }
+        }
+      }
+      .image-bg {
+        position: relative;
+        .image-detail {
+          position: absolute;
+          left: 0%;
+          bottom: 0%;
+          background: rgba(255, 255, 255, 0.72);
+          backdrop-filter: blur(1.5px);
+          padding: 32px 50px;
+          p {
+            margin-bottom: 8px;
+          }
+          h4 {
+            font-size: 28px;
+          }
+        }
+      }
+    }
+  }
+}
+.tips {
+  .container {
+    .heading {
+        margin-top: 88px;
+      display: flex;
+      justify-content: center;
+      h2 {
+        font-weight: 700;
+        font-size: 40px;
+      }
+    }
+    .row {
+      display: flex;
+      gap: 32px;
+      margin-top: 32px;
+      .card {
+        .preview {
+          h5 {
+            margin: 16px 128px 0px 16px;
+            font-style: normal;
+            font-weight: 600;
+          }
+          p{
+            margin: 8px  16px 16px;
+            color: #898989;
+          }
+        }
+      }
+    }
+    .dots{
+        display: flex;
+        justify-content: center;
+        gap: 28px;
+    }
+  }
+}
